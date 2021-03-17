@@ -1,0 +1,10 @@
+.logo {
+  max-width: 125px;
+  float: left;
+  margin: 10px;
+  margin-left: 105px;
+}
+
+header {
+  background-color: var(--white);
+}
