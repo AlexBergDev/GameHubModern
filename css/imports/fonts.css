@@ -1,0 +1,101 @@
+h1 {
+  color: var(--secondgradient);
+  text-decoration: none;
+  font-family: "commando", Tahoma, Verdana, sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  color: var(--white);
+  text-decoration: none;
+  font-family: "Avenir Next Rounded Pro Bold", Tahoma, Verdana, sans-serif;
+  font-weight: 0;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  color: var(--secondgradient);
+  text-decoration: none;
+  font-family: "Avenir Next Rounded Pro Bold", Tahoma, Verdana, sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: var(--secondgradient);
+  text-decoration: none;
+  font-family: "Avenir Next Rounded Pro Regular", Tahoma, Verdana, sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+a {
+  color: var(--secondgradient);
+  text-decoration: none;
+  font-family: "Avenir Next Rounded Pro Medium", Tahoma, Verdana, sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer4 p,
+h1,
+.index-image p,
+.newsletter h2 {
+  text-align: center;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 0.75rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+  padding: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 60px;
+}
