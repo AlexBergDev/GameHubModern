@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+}
+
+.card a.details {
+  margin-top: 0.5em;
+  background-color: var(--grey) !important;
+  color: white !important;
+}
+
+.card a.details:hover {
+  background-color: var(--light-grey) !important;
+  color: var(--grey) !important;
+}
+
+.card div.details {
+  flex: 1 1 auto;
+  min-height: 1px;
+  background: linear-gradient(to right, var(--buttonleft), var(--buttonright));
+  border-radius: 10px;
+}
+
+.card div.details:hover {
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.image {
+  height: 180px;
+  background-size: cover;
+  background-position: center top;
+  border-radius: 10px;
+  filter: brightness(70%);
+}
