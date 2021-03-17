@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:700i|Open+Sans:400,400i,600,700&display=swap");
+@font-face {
+  font-family: "commando";
+  src: url("../fonts/commando.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Next Rounded Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Rounded Pro Regular"),
+    url("../fonts/AvenirNextRoundedProRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next Rounded Pro Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Rounded Pro Medium"),
+    url("../fonts/AvenirNextRoundedProMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next Rounded Pro Demi";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Rounded Pro Demi"),
+    url("../fonts/AvenirNextRoundedProDemi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next Rounded Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Rounded Pro Bold"),
+    url("../fonts/AvenirNextRoundedProBold.woff") format("woff");
+}
+
+:root {
+  --primary-colour: #b3193d;
+  --grey: #242424;
+  --light-grey: #d8d7d7;
+  --footer: #545454;
+  --error: #b50404;
+  --white: #fdfbfb;
+  --opacitywhite: rgba(255, 255, 255, 0.7);
+  --header: #7793aa;
+  --container: #748ea1;
+  --opacityblue: rgba(116, 142, 161, 0.664);
+  --orange: #ff6600;
+  --buttonleft: #ff6600;
+  --buttonright: #a5bbc9;
+  --input: #6f6b6b;
+  --firstgradient: #335174;
+  --secondgradient: #1d2f43;
+}
