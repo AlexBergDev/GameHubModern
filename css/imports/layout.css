@@ -51,6 +51,15 @@ footer {
   padding-top: 100px;
 }
 
+.contact-image {
+  background-image: url("../../images/contact_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .intro {
