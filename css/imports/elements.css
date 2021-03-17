@@ -23,6 +23,23 @@ button:hover {
   text-decoration: none;
 }
 
+button:disabled {
+  background: var(--light-grey);
+  cursor: default;
+  -webkit-filter: brightness(100%);
+}
+
+.success {
+  background: black;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  color: green;
+  border-radius: 35px;
+  border: 2px solid green;
+  margin: 20px;
+}
+
 .newsletter button,
 .index-image button {
   margin: auto;
