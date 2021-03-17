@@ -1,0 +1,66 @@
+button {
+  background: linear-gradient(to right, var(--buttonleft), var(--buttonright));
+  color: var(--secondgradient);
+  border: none;
+  border-radius: 50px;
+  padding: 11px 46px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  -webkit-filter: brightness(100%);
+}
+
+button:hover {
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.newsletter button,
+.index-image button {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.iconsdown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.iconsdown a {
+  background: linear-gradient(to right, var(--buttonleft), var(--buttonright));
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--white);
+  margin: 10px;
+  -webkit-filter: brightness(100%);
+}
+
+.iconsdown a:hover {
+  color: var(--white);
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
