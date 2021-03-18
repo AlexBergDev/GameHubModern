@@ -127,13 +127,18 @@ footer {
   font-size: 25px;
   text-decoration: none;
   color: var(--secondgradient);
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
+  min-width: 50%;
   display: inline-block;
   transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   -webkit-filter: brightness(100%);
+  background: #ddd;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /* --- Mobile Styles --- */
