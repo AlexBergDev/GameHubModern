@@ -1,7 +1,7 @@
 input[type="text"],
 textarea {
   padding: 10px;
-  width: 60%;
+  width: 75%;
   max-width: 500px;
   display: inline-block;
   border: none;
@@ -50,4 +50,17 @@ label {
 .newsletter {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+form {
+  text-align: center;
+}
+
+form p{
+  margin: 20px;
+}
+
+form button{
+  margin: 20px;
+  margin-bottom: 40px;
 }
