@@ -64,3 +64,12 @@ form button{
   margin: 20px;
   margin-bottom: 40px;
 }
+
+/* --- Mobile Styles --- */
+@media only screen and (max-width: 790px) {
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 20px;
+  }
+}
