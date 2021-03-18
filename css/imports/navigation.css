@@ -63,7 +63,14 @@ nav a:hover:after {
   background: #ccc;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 380px) {
+  .logo {
+    max-width: 125px;
+    float: left;
+    margin: 10px;
+    margin-left: 65px;
+  }
+
   .hamburger-label {
     float: right;
     color: var(--secondgradient);
@@ -94,13 +101,58 @@ nav a:hover:after {
     font-size: 17px;
     border: none;
     cursor: pointer;
-    margin: 20px;
+    margin: 20px; 
+  }
+}
+
+@media only screen and (min-width: 381px) and (max-width: 790px) {
+  .logo {
+    max-width: 125px;
+    float: left;
+    margin: 10px;
+    margin-left: 145px;
+  }
+
+  .hamburger-label {
+    float: right;
+    color: var(--secondgradient);
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 2.5em;
+    display: block;
+  }
+
+  #hamburger-menu:checked ~ nav {
+    display: block;
+    float: left;
+  }
+
+  nav a {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .navigation button {
+    padding: 14px 18px;
+    margin-top: 8px;
+    margin-right: 25px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin: 20px; 
   }
 }
 
 @media only screen and (min-width: 791px) and (max-width: 950px) {
   .logo {
+    max-width: 125px;
     float: left;
+    margin: 10px;
+    margin-left: 105px;
   }
 
   nav {
@@ -139,7 +191,10 @@ nav a:hover:after {
 
 @media only screen and (min-width: 951px) {
   .logo {
+    max-width: 125px;
     float: left;
+    margin: 10px;
+    margin-left: 105px;
   }
 
   nav {
