@@ -96,7 +96,7 @@ footer {
 }
 
 .categories-image {
-  background-image: url("../../images/categories_background.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../../images/categories_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
