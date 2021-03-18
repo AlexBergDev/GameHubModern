@@ -1,6 +1,6 @@
 @font-face {
   font-family: "commando";
-  src: url("../fonts/commando.ttf") format("truetype");
+  src: url("../../fonts/commando.ttf") format("truetype");
 }
 
 @font-face {
@@ -8,7 +8,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Avenir Next Rounded Pro Regular"),
-    url("../fonts/AvenirNextRoundedProRegular.woff") format("woff");
+    url("../../fonts/AvenirNextRoundedProRegular.woff") format("woff");
 }
 
 @font-face {
@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Avenir Next Rounded Pro Medium"),
-    url("../fonts/AvenirNextRoundedProMedium.woff") format("woff");
+    url("../../fonts/AvenirNextRoundedProMedium.woff") format("woff");
 }
 
 @font-face {
@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Avenir Next Rounded Pro Demi"),
-    url("../fonts/AvenirNextRoundedProDemi.woff") format("woff");
+    url("../../fonts/AvenirNextRoundedProDemi.woff") format("woff");
 }
 
 @font-face {
@@ -32,7 +32,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Avenir Next Rounded Pro Bold"),
-    url("../fonts/AvenirNextRoundedProBold.woff") format("woff");
+    url("../../fonts/AvenirNextRoundedProBold.woff") format("woff");
 }
 
 :root {
