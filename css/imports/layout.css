@@ -68,6 +68,24 @@ footer {
   padding-bottom: 100px;
 }
 
+.register-image {
+  background-image: url("../../images/register_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cart-image {
+  background-image: url("../../images/cart_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .intro {
