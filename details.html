@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>GameHub - Product</title>
+        <meta name="description" content="Description of product">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Game detail</title>        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />   
         <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/1abcb9173a.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <header>
+
+            <a href="index.html">
+                <img src="images/logo.png" alt="GameHub" class="logo"></a>
+            </a>
+
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+
+                <nav>
+                    <ul>
+                        
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><div class="navigation">
+                            <button onclick="location.href='cart.html'" type="submit"><i class="fas fa-shopping-cart"></i></button>
+                        </div></li>
+                        <li><div class="navigation">
+                              <button onclick="location.href='categories.html'" type="submit"><i class="fa fa-search"></i></button>
+                          </div></li>
+                          <li><div class="navigation">
+                            <button onclick="location.href='login.html'" type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                        </div></li>
+
+                    </ul>
+                </nav>
+
+        </header>
         
         <main class="container content"> 
-            <div class="breadcrumb-nav"><a href="/">Back to games</a></div>
+            <div class="breadcrumb-nav"><a href="/">Go back</a></div>
 
             <div class="game-details">
                 <div class="loader"></div>
@@ -18,7 +49,55 @@
             
         </main>
 
-        <footer>API powered by <a href="https://rawg.io/" target="_blank">RAWG</a></footer>
+        <footer>
+            <div class="grid-container-footer">
+
+                <div class="footer1">
+
+                    <h3>Links</h3>
+
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="about.html">About Us</a>
+                        <a href="about.html">Newsletter</a>
+
+                </div>
+
+                <div class="footer2">
+
+                    <h3>Help</h3>
+
+                        <a href="contact.html">Contact</a>
+                        <a href="#">FAQ</a>
+
+                </div>
+
+                <div class="footer3">
+
+                    <h3>Gaming</h3>
+
+                        <a href="categories.html">Nintendo Switch</a>
+                        <a href="categories.html">Playstation 5</a>
+                        <a href="categories.html">Xbox One</a>
+                        <a href="categories.html">PC/Mac</a>
+
+                </div>
+
+                <div class="footer4">
+
+                        <div class="iconsdown">
+
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+
+                    <p>Copyright &copy; 2021 GameHub. All rights reserved.</p>
+
+                </div>
+            </div>
+        </footer>
 
         <script src="js/components/message.js"></script>
         <script src="js/detail.js"></script>
