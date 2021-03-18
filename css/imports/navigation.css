@@ -107,6 +107,10 @@ nav a:hover:after {
     cursor: pointer;
     margin: 20px; 
   }
+
+  nav ul {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 381px) and (max-width: 790px) {
@@ -148,6 +152,10 @@ nav a:hover:after {
     border: none;
     cursor: pointer;
     margin: 20px; 
+  }
+
+  nav ul {
+    text-align: center;
   }
 }
 
