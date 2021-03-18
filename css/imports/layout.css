@@ -95,6 +95,24 @@ footer {
   padding-bottom: 100px;
 }
 
+.categories-image {
+  background-image: url("../../images/categories_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.checkout-image {
+  background-image: url("../../images/checkout_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .intro {
