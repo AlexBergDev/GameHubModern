@@ -69,7 +69,7 @@ form button{
 @media only screen and (max-width: 790px) {
   input[type="text"],
   textarea {
-    width: 100%;
+    width: 95%;
     padding: 16px;
   }
 }
