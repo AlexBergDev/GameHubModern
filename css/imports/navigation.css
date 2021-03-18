@@ -1,3 +1,7 @@
+header {
+  background-color: var(--white);
+}
+
 nav,
 #hamburger-menu {
   display: none;
