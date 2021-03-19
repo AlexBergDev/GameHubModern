@@ -35,7 +35,17 @@ fetchGame();
 
 function createHtml(details) {
     detailContainer.innerHTML = `<h1>${details.name}</h1>
-                                <div class="details-image" 
-                                    style="background-image: url('${details.background_image}')"></div>
-                                <time class="details-date">Released: ${details.released}</time>`;
+                                <div class="details-image" style="background-image: url('${details.background_image}')"></div>
+                                <p class="details-date">Genre: ${details.genres[0].name}</p>
+                                <a class="details-date" href="${details.website}">${details.website}</a>
+                                <p class="details-date">Developers: ${details.developers[0].name}</p>
+                                <p class="details-date">Publisher: ${details.publishers[0].name}</p>
+                                <button onclick="location.href='cart.html'" type="button">Add To Cart</button>
+                                <h2>Preview image</h2>
+                                <div class="screenshot-image" style="background-image: url('${details.background_image_additional}')"></div>
+                                <h2>Preview video</h2>
+                                <iframe src="${details.clip.clip}"></iframe>`;
+                                
 }
+
+console.log (details.released)
