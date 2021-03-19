@@ -37,6 +37,5 @@ function createHtml(details) {
     detailContainer.innerHTML = `<h1>${details.name}</h1>
                                 <div class="details-image" 
                                     style="background-image: url('${details.background_image}')"></div>
-                                <div class="details-description">${details.description}</div>
                                 <time class="details-date">Released: ${details.released}</time>`;
 }
