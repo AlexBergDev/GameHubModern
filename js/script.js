@@ -15,7 +15,7 @@ async function fetchGames() {
         const games = json.results;
 
         games.forEach(function(game) {
-            resultsContainer.innerHTML += `<a href="details.html?id=${game.id}" class="card">
+            resultsContainer.innerHTML += `<a href="game.html?id=${game.id}" class="card">
                                                 
                                                 <div class="details">
                                                 <div class="image" style="background-image: url(${game.background_image});"></div>
