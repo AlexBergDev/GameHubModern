@@ -99,3 +99,7 @@ h1,
   font-size: 40px;
   margin-top: 60px;
 }
+
+.box h1 {
+  margin-bottom: 50px;
+}
