@@ -4,16 +4,12 @@
 
 .details-image {
     margin-bottom: 1em;
-    height: 290px;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.breadcrumb-nav {
-    margin-bottom: 1em;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid var(--light-grey);
 }
 
 .details-genres {
