@@ -67,6 +67,26 @@ nav a:hover:after {
   background: #ccc;
 }
 
+.navigation-back {
+  padding: 6px 10px;
+  background: #ddd;
+  border-radius: 50px;
+  max-width: 55px;
+  cursor: pointer;
+  -webkit-filter: brightness(100%);
+  margin-top: -10px;
+}
+
+.navigation-back:hover {
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 380px) {
   .logo {
     max-width: 125px;
