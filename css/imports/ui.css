@@ -25,6 +25,8 @@ footer a {
   animation: spin 2s linear infinite;
   margin-left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  margin: 0 auto;
 }
 
 .btn-primary {
