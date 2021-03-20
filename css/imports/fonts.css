@@ -109,6 +109,12 @@ h1,
   margin-bottom: 1em;
 }
 
+.success-link {
+  text-align: center;
+  margin: 40px;
+  color: var(--red);
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .text-product {
