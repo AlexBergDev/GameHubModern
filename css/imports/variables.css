@@ -36,17 +36,12 @@
 }
 
 :root {
-  --red: #b3193d;
-  --grey: #242424;
-  --light-grey: #d8d7d7;
-  --footer: #545454;
-  --error: #b50404;
-  --white: #fdfbfb;
   --opacitywhite: rgba(255, 255, 255, 0.8);
   --price: rgba(255, 255, 255, 0.4);
-  --header: #7793aa;
-  --container: #748ea1;
-  --opacityblue: rgba(116, 142, 161, 0.664);
+  --red: #b3193d;
+  --light-grey: #d8d7d7;
+  --error: #b60505;
+  --white: #fdfbfb;
   --orange: #ff6600;
   --buttonleft: #ff6600;
   --buttonright: #a5bbc9;
