@@ -38,9 +38,9 @@ label {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .newsletter h3 {
@@ -57,11 +57,11 @@ form {
   text-align: center;
 }
 
-form p{
+form p {
   margin: 20px;
 }
 
-form button{
+form button {
   margin: 20px;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -85,4 +85,26 @@ form button{
     width: 95%;
     padding: 16px;
   }
+
+  label {
+    display: flex;
+    justify-content: center;
+  }
 }
+
+/* --- Tablet Styles --- 
+@media only screen and (min-width: 791px) and (max-width: 950px) {
+  label {
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+}
+
+/* --- Desktop Styles ---
+@media only screen and (min-width: 951px) {
+  label {
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+}
+*/
