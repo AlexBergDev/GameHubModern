@@ -180,7 +180,11 @@ footer {
   .box-product {
     background: var(--opacitywhite);
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+  }
+
+  .product-image {
+    padding: 0px;
   }
 
   .results {
