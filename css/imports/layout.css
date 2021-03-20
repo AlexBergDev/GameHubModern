@@ -157,6 +157,10 @@ footer {
   cursor: pointer;
 }
 
+.radio-checkmark {
+  margin-top: 30px;
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .intro {
