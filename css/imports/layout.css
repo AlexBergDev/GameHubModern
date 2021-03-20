@@ -195,6 +195,15 @@ footer {
   .categories li {
     display: block;
   }
+
+  .product-grid button {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .product-grid {
+    margin-top: 40px;
+  }
 }
 
 /* --- Tablet Styles --- */
