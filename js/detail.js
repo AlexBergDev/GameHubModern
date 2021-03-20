@@ -34,7 +34,7 @@ async function fetchGame() {
 fetchGame();
 
 function createHtml(details) {
-    detailContainer.innerHTML = `<h1>${details.name}</h1>
+    detailContainer.innerHTML = `<h1 class="product-title">${details.name}</h1>
                                 <div class="details-image" style="background-image: url('${details.background_image}')"></div>
                                 <div class="product-grid">
                                 <p class="text-product">Genre: ${details.genres[0].name}</p>
