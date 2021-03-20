@@ -114,12 +114,21 @@ h1,
     font-size: 20px;
     font-weight: bold;
     color: var(--orange);
-    margin-top: 70px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1135px) {
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--orange);
+    margin-top: 60px;
   }
 }
 
 /* --- Desktop Styles --- */
-@media only screen and (min-width: 951px) {
+@media only screen and (min-width: 1136px) {
   .price {
     font-size: 20px;
     font-weight: bold;
