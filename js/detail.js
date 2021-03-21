@@ -6,12 +6,8 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-console.log(id);
-
 
 const url = "https://api.rawg.io/api/games/" + id;
-
-console.log(url);
 
 async function fetchGame() {
 
@@ -19,13 +15,11 @@ async function fetchGame() {
         const response = await fetch(url);
         const details = await response.json();
 
-        console.log(details);
 
         createHtml(details);
       
     }
     catch(error) {
-        console.log(error);
         detailContainer.innerHTML = message("error", error);
     }
     
@@ -49,5 +43,3 @@ function createHtml(details) {
                                 <iframe src="${details.clip.clip}"></iframe>`;
                                 
 }
-
-console.log (details.released)
