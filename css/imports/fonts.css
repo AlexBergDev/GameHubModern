@@ -115,6 +115,12 @@ h1,
   color: var(--red);
 }
 
+.success {
+  font-family: "Avenir Next Rounded Pro Bold", Tahoma, Verdana, sans-serif;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
 /* --- Mobile Styles --- */
 @media only screen and (max-width: 790px) {
   .text-product {
