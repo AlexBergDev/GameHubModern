@@ -16,6 +16,14 @@ footer a {
   content: ". An error occurred. Please try again later or contact us.";
 }
 
+.form-error {
+  display: none;
+  font-family: "Avenir Next Rounded Pro Regular", Tahoma, Verdana, sans-serif;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
 .loader {
   border: 16px solid var(--white);
   border-top: 16px solid var(--red);
