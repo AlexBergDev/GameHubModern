@@ -8,8 +8,6 @@ async function fetchGames() {
         const response = await fetch(url);
         const json = await response.json();
 
-        console.log(json);
-
         resultsContainer.innerHTML = "";
 
         const games = json.results;
@@ -26,7 +24,6 @@ async function fetchGames() {
       
     }
     catch(error) {
-        console.log(error);
         resultsContainer.innerHTML = message("error", error);
     }
     
