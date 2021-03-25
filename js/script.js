@@ -1,6 +1,6 @@
 const resultsContainer = document.querySelector(".results");
 
-const url = "https://api.rawg.io/api/games?key=33e9ae782f654c8fbfcdb318d08ba4c0&page=2";
+const url = "https://api.rawg.io/api/games?key=33e9ae782f654c8fbfcdb318d08ba4c0&page=3";
 
 async function fetchGames() {
 
