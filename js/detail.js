@@ -38,8 +38,6 @@ function createHtml(details) {
                                 <button onclick="location.href='cart.html'" type="button">Add To Cart</button>
                                 </div>
                                 <h2>Preview image</h2>
-                                <div class="screenshot-image" style="background-image: url('${details.background_image_additional}')"></div>
-                                <h2>Preview video</h2>
-                                <iframe src="${details.clip.clip}"></iframe>`;
+                                <div class="screenshot-image" style="background-image: url('${details.background_image_additional}')"></div>`;
                                 
 }
