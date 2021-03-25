@@ -9,7 +9,7 @@
 
 .screenshot-image {
   margin-bottom: 1em;
-  height: 300px;
+  height: 600px;
   border-radius: 15px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -46,6 +46,10 @@ iframe {
   .screenshot-image {
     border-radius: 0px;
   }
+
+  .screenshot-image {
+    height: 300px;
+  }
 }
 
 /* --- Tablet Styles --- */
@@ -62,6 +66,10 @@ iframe {
 
   .details-image {
     max-width: 67%;
+  }
+
+  .screenshot-image {
+    height: 400px;
   }
 }
 
