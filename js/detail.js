@@ -7,7 +7,7 @@ const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
 
-const url = "https://api.rawg.io/api/games?key=33e9ae782f654c8fbfcdb318d08ba4c0/" + id;
+const url = "https://api.rawg.io/api/games/" + id;
 
 async function fetchGame() {
 
