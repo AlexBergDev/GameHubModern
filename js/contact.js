@@ -8,6 +8,7 @@ const subjectError = document.querySelector("#subjectError");
 const success = document.querySelector("#success");
 const button = document.querySelector("#contactButton");
 
+
 function validateForm(event) {
     event.preventDefault();
 
@@ -32,21 +33,19 @@ function validateForm(event) {
 
 form.addEventListener("submit", validateForm);
 
-function checkIfButtonIsDisabled() {
 
-    if (checkLength(name.value, 1) && checkLength(subject.value, 10) && validateEmail(email.value)) {
-        button.disabled = false;
-    } else {
+function checkIfCorrect() {
 
+    if (checkLength(name.value, 1) && checkLength(subject.value, 4) && validateEmail(email.value)) {
+        form.addEventListener("submit", submitForm);
+    } else {    
         message.innerHTML = "";
-
-        button.disabled = true;
     }
 }
 
-name.addEventListener("keyup", checkIfButtonIsDisabled);
-email.addEventListener("keyup", checkIfButtonIsDisabled);
-subject.addEventListener("keyup", checkIfButtonIsDisabled);
+name.addEventListener("keyup", checkIfCorrect);
+subject.addEventListener("keyup", checkIfCorrect);
+email.addEventListener("keyup", checkIfCorrect);
 
 function submitForm(event) {
     event.preventDefault();
@@ -54,7 +53,7 @@ function submitForm(event) {
     form.reset();
 }
 
-form.addEventListener("submit", submitForm);
+form.addEventListener("submit", checkIfCorrect);
 
 function checkLength(value, len) {
     if (value.trim().length >= len) {
