@@ -96,14 +96,14 @@ li .current:hover {
   .nav-links {
     position: fixed;
     right: 0px;
-    height: 60vh;
-    top: 15vh;
+    height: 50vh;
+    top: 12vh;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 15px 0px 0px 15px;
-    width: 60%;
+    width: 45%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
