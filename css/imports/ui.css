@@ -24,25 +24,24 @@ footer a {
   margin-top: 10px;
 }
 
+/* Loader */
 .loader {
-  border: 16px solid var(--white);
-  border-top: 16px solid var(--red);
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-  transform: translateX(-50%);
-  display: flex;
+  width: 50px;
+  height: 50px;
   margin: 0 auto;
+  border-radius: 70%;
+  background-color: var(--secondgradient);
+  animation: loader 0.5s infinite ease-in-out;
 }
 
-.btn-primary {
-  background: var(--red) !important;
-  border-color: var(--red !important;
-}
-
-.container a.btn-primary {
-  color: var(--white) !important;
+@keyframes loader {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
 
 @keyframes spin {
