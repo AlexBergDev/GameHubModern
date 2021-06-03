@@ -8,45 +8,37 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />   
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://kit.fontawesome.com/1abcb9173a.js" crossorigin="anonymous"></script>
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:2308407,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
     </head>
     <body>
 
         <header>
 
-            <a href="index.html">
-                <img src="images/logo.png" alt="GameHub" class="logo"></a>
-            </a>
-
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu">
-
-                <nav>
-                    <ul>
-                        
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="categories.html">Categories</a></li>
-                        <li><div class="navigation">
-                            <button onclick="location.href='cart.html'" type="submit"><i class="fas fa-shopping-cart"></i></button>
-                        </div></li>
-                        <li><div class="navigation">
-                              <button onclick="location.href='categories.html'" type="submit"><i class="fa fa-search"></i></button>
-                          </div></li>
-                          <li><div class="navigation">
-                            <button onclick="location.href='login.html'" type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
-                        </div></li>
-
-                    </ul>
-                </nav>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Gamehub" class="logo-png">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
 
         </header>
         
@@ -74,6 +66,13 @@
 
                 </div>
             </div>
+
+            <div class="str-ModalBack"></div>
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                    </div>
+                </div>
 
         </main>
 
@@ -129,6 +128,8 @@
         </footer>
 
         <script src="js/components/message.js"></script>
+        <script src="js/components/navigation.js"></script>
+        <script src="js/components/imageViewer.js"></script>
         <script src="js/detail.js"></script>
     </body>
 </html>
