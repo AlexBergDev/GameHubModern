@@ -13,30 +13,32 @@
 
         <header>
 
-            <a href="index.html">
-                <img src="images/logo.png" alt="GameHub" class="logo"></a>
-            </a>
-
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu">
-
-                <nav>
-                    <ul>
-                        
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="categories.html">Categories</a></li>
-                        <li><div class="navigation">
-                            <button onclick="location.href='cart.html'" type="submit"><i class="fas fa-shopping-cart"></i></button>
-                        </div></li>
-                        <li><div class="navigation">
-                              <button onclick="location.href='categories.html'" type="submit"><i class="fa fa-search"></i></button>
-                          </div></li>
-                          <li><div class="navigation">
-                            <button onclick="location.href='login.html'" type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i></button>
-                        </div></li>
-
-                    </ul>
-                </nav>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Gamehub" class="logo-png">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a class="current" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li>
+                        <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
 
         </header>
         
@@ -119,5 +121,6 @@
                 </div>
             </div>
         </footer>
+        <script src="js/components/navigation.js"></script>
     </body>
 </html>
